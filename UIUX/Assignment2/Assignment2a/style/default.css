@@ -1,0 +1,246 @@
+*{
+	font-family: Arial, Helvetica;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image:url(../image/bodybg.png);
+}
+a,a:link,a:active,a:visited{
+	color: black;
+	text-decoration:none;
+}
+ul li{
+	list-style:none;
+}
+
+
+#Header{
+	background: #69f;
+	display : flex;
+}
+#Header ul{
+	flex:1;
+	text-align: center;
+	padding: 10px 0;
+}
+#Header ul li{
+	display:inline-block;
+}
+#Header ul li a{
+	color: #fff;
+	padding:10px 30px;
+	display:inline-block;
+	transition:1s;
+	border-radius:5px;	
+}
+#Header ul li a:hover{
+	background:#fff;
+	color: #69f;
+}
+#Header .Social-Link{
+	padding:20px
+}
+#Header .Social-Link a{
+	padding:0 8px
+}
+#Header .Social-Link a i{
+	color: white;
+}
+#Header .logo{
+	padding:20px 30px;
+	width:80px;
+}
+
+
+#Cover{
+	background: url(../image/homebg.png) center no-repeat;
+	background-size: contain;
+	text-align:center;
+	margin-bottom:20px;
+	padding:5.7%;
+	display: flex;
+}
+
+#Cover-Detail{
+	margin-left: 200px;
+    max-width: 450px;
+	padding-top:20px;
+    position:absolute;
+	text-align:left;
+}
+#Cover-Detail h1{
+	font-size:40px;
+	
+}
+#Cover-Image{
+	margin-left: 55%;
+    margin-top: 10px;
+    height:600px;
+}
+#Cover-Image img{
+    height:600px;
+}
+#Cover-Detail ul{
+	padding:10px;
+	margin-top:10px;
+
+}
+#Cover-Detail ul li{
+	padding:10px;	
+	display:inline;
+	background-color:#24a;
+}
+#Cover-Detail ul li:nth-child(1) {
+	background-color:#f74;
+	margin-right:10px;
+}
+#Cover-Detail ul li a{
+	color:#fff;
+}
+#Cover-Detail h1{
+	color:#fff;
+}
+
+
+.heading{
+	color:#37f;
+}
+.Underneath-Heading{
+	color:#999;
+}
+
+
+#Features{
+	margin: 100px 0 0 0;
+	
+}
+#Feature-List{
+	display: flex;
+	margin:100px 220px;
+	text-align:center;
+}
+#Features-Screen{
+	margin-left:450px;
+}
+#Features-Screen img{
+	height:550px;
+}
+.features{
+	display: flex;
+	padding:10px;
+	margin:5px;
+}
+.features {
+	text-align:left;
+}
+.features p{
+	color:#777;
+}
+.Features-Detail{
+	margin:10px;
+}
+
+
+#Screenshots{
+	margin: 100px 0 0 0;
+}
+.Screenshot-Details{
+	display:flex;
+	margin:100px 0;
+}
+#screen1{
+	margin:0 0 0 400px;
+}
+#screen2{
+	margin:0 0 0 200px;
+}
+#screen3{
+	margin:0 0 0 400px;
+}
+#Screenshot2{
+	margin:0 0 0 300px;
+}
+.Screenshot-Description{
+	margin:100px
+}
+.Screenshot-Description h3{
+	margin:20px 0;
+}
+.Screenshot-Description p{
+	color:#777;
+}
+
+
+#Reviews{
+	margin: 100px 0 0 0;
+}
+#Review-Content{
+	margin-bottom:100px;
+}
+.Review-Block{
+	display:flex;
+	margin:50px 0 50px 400px;
+}
+.Review-Detail{
+	margin:10px 40px;
+}
+.heading{
+	text-align: center;
+}
+
+
+#Download-App{
+	display:flex;
+	background-image: url(../image/downloadbg.png);
+}
+#DownloadContent{
+	margin:100px 200px;
+	color:#fff;
+}
+#DownloadContent h2{
+	font-size:30px;
+	margin:20px 0;
+}
+#DownloadContent p{
+	margin:20px 0;
+}
+#DownloadImage img {
+	margin-top:150px;
+	height:300px;
+}
+
+#Footer{
+	background:#334;
+	
+}
+#FooterNav{
+	display:flex;
+}
+
+#FooterNav ul{
+	flex:1;
+	text-align: center;
+	padding: 40px 0;
+}
+#FooterNav ul li{
+	display:inline-block;
+}
+#FooterNav ul li a{
+	padding:0 20px;
+	color:#fff;
+}
+#FooterNav .Social-Link{
+	padding:40px 160px;
+}
+#Footer .Social-Link a{
+	padding:0 8px
+}
+#Footer-Logo{
+	padding:40px 160px;
+	width:80px;
+}
+#Footer p{
+	text-align:center;
+	color:#666;
+}
