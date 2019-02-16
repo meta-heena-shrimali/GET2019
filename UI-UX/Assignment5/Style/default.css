@@ -1,0 +1,64 @@
+.header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 15px 0;
+  padding-bottom:15px;
+}
+
+.logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 36px;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.searchicon{
+	margin:7px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 48px;
+}
+
+.image {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.h{ height: 250px; }
+
+
+.button {
+  margin-bottom: 64px;
+}
+.button> .btn {
+  border-radius: 32px;
+}
+
+.post {
+  margin-bottom: 64px;
+}
+.post-title {
+  margin-bottom: 4px;
+  font-size: 40px;
+}
+.post-date {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+.footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.footer p:last-child {
+  margin-bottom: 0;
+}
