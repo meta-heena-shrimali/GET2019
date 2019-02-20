@@ -1,0 +1,79 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+#square1 {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:red;
+  animation-name: squareOneAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes squareOneAnimation {
+   0% { left:0px; top:0px;}
+  25%  { left:100px; top:0px;}
+  50%  { left:100px; top:100px;}
+  75%  { left:0px; top:100px;}
+  100% { left:0px; top:0px;}
+}
+
+#square2 {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 100;
+  background-color:green;
+  animation-name: squareTwoAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes squareTwoAnimation {
+   0% { left:100px; top:0px;}
+  25%  { left:100px; top:100px;}
+  50%  { left:0px; top:100px;}
+  75%  { left:0px; top:0px;}
+  100% { left:100px; top:0px;}
+}
+#square3 {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 100;
+  left: 100;
+  background-color:blue;
+  animation-name: squareThreeAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes squareThreeAnimation {
+   0% { left:100px; top:100px;}
+  25%  { left:0px; top:100px;}
+  50%  { left:0px; top:0px;}
+  75%  { left:100px; top:0px;}
+  100% { left:100px; top:100px;}
+}
+#square4{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 100;
+  left: 0;
+  background-color:yellow;
+  animation-name: squareFourAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes squareFourAnimation {
+   0% {left:0px; top:100px;}
+  25%  {left:0px; top:0px;}
+  50%  { left:100px; top:0px;}
+  75%  { left:100px; top:100px;}
+  100% { left:0px; top:100px;}
+}
