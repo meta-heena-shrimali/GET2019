@@ -1,0 +1,11 @@
+
+  .selected div{
+    background-color: #CFD8DC !important;
+  }
+  
+  .editSelected:hover {
+    display: inline-block;
+    border-radius: 60px;
+    padding: 0.5em 0.6em;
+    background-color: cyan;
+  }
